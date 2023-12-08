@@ -30,7 +30,7 @@ function showGrade() {
   if (calculateGrade <= 80) {
     document.getElementById("statement").innerHTML =
       "You have to improve. Study hard, eat healthy, drink your fluids. I'm VERY disappointed.";
-  } else if (100 > calculateGrade >= 80) {
+  } else if (80 <= calculateGrade < 100) {
     document.getElementById("statement").innerHTML =
       "Good job, but not a 100%? Pathetic.";
   } else if (calculateGrade == 100) {
