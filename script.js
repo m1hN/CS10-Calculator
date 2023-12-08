@@ -40,14 +40,3 @@ function showGrade() {
     document.getElementById("statement").innerHTML = "Invalid try again.";
   }
 }
-
-// let x = 10;
-// let y = 0;
-
-// if (x == 10) {
-//   console.log('x is 10');
-// } else if (y < -5) {
-//   console.log('y less than -5');
-// } else if (x == 10 && y < 10) {
-//   console.log('blah');
-// } else if (x > 0 && x < 10)  // 0 < x < 10
